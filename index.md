@@ -7,7 +7,9 @@
   - Data Services & Business Intelligence
   - Custom Application and Web Solutions
 
-## Our repositories
+### Our repositories
 {% for repository in site.github.public_repositories %}
+  {% if repository.name != "hbstech.github.io"%}
   * [{{ repository.name }}]({{ repository.html_url }})
+  {% endif %}
 {% endfor %}
