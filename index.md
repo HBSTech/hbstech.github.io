@@ -1,3 +1,7 @@
+---
+title: "HBSTech"
+---
+
 # [Heartland Business Systems](https://www.hbs.net/solutions/data-application-solutions)
 
 ## Data and Application Services at HBS
