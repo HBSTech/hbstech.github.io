@@ -6,3 +6,8 @@
   - Business Productivity
   - Data Services & Business Intelligence
   - Custom Application and Web Solutions
+
+## Our repositories
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
